@@ -15,11 +15,8 @@ import java.util.Random;
 public class Digits {
 
     public static void main(String[] args) {
-        int[] arrayNumbers = new int[10];
-        FillArray(arrayNumbers);
-        System.out.println(20%10);
-        
-        
+        int[] arrayNumbers = new int[10];       // # de numeros en el array
+        FillArray(arrayNumbers);       
     }
 
     public static void FillArray(int[] arrayNumbers) {
@@ -27,6 +24,7 @@ public class Digits {
         int count2 = 0;
         int countNonZero = 0;
         Random random = new Random();
+        // llena al array con numero aleatorios de 1 a n
         for (int n = 0; n < arrayNumbers.length; n++) {
             int RandomNumber = random.nextInt(100);
             arrayNumbers[n] = RandomNumber;
@@ -46,7 +44,7 @@ public class Digits {
         System.out.println("\n");
         System.out.println("Count1: " + count1);
         System.out.println("Count2: " + count2);
-        System.out.println("countNonZero: " + countNonZero);
+        //System.out.println("countNonZero: " + countNonZero);
 
     }
 

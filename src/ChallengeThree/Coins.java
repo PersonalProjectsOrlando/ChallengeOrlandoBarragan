@@ -22,7 +22,7 @@ public class Coins {
         int[] coins1 = {5, 7, 1, 1, 2, 3, 22};
         int[] coins2 = {1, 1, 1, 1, 1};
         int[] coins3 = {1, 5, 1, 1, 1, 10, 15, 20, 100};
-        int[] coins4 = {1,2,4};
+        int[] coins4 = {1,2,3,6,10};
         
         readArray(coinsRandom);
         System.out.println("");        
